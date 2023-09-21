@@ -1,7 +1,7 @@
 # Learn_Web_Project
-*I've done this repo to documenting the journy for learning programing, also can be used as a road map for learn programming.
+*I've done this repo to documenting the journy for learning programming, also can be used as a road map for learn programming.
 
-1 - HTML
+1 - **HTML**               20/9/2023
 
         -(head and nested elements)
         -(comments and use cases)
@@ -19,7 +19,7 @@
 
 
 
-2 - css                20/9/2023
+2 - **css** 
 
         -first project and syntax
         -element styling

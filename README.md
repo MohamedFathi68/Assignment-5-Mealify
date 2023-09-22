@@ -24,3 +24,5 @@
         -first project and syntax
         -element styling
         -name conventions
+        -background color image repeat
+        

@@ -29,3 +29,5 @@
         -padding
         -margin
         -border
+        -outline
+        -display block inline inlineblock

@@ -28,3 +28,4 @@
         -Background  Attachment Position Size
         -padding
         -margin
+        -border

@@ -1,8 +1,11 @@
 .selector {
-  background-color: #000000;
-  color: #ffffff;
+  background-color: #eeeeee;
+  color: #000000;
   font-size: 50px;
   width: 70%;
-  padding: 20px 10px 30px 5px;
+  padding: 10px;
   margin: auto;
+  border-width: 0 0 0 8px;
+  border-color: aqua;
+  border-style: solid;
 }

@@ -26,4 +26,4 @@
         -name conventions
         -background color image repeat
         -Background  Attachment Position Size
-        -
+        -padding

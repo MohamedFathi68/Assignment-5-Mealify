@@ -2,5 +2,7 @@
   background-color: #000000;
   color: #ffffff;
   font-size: 50px;
+  width: 70%;
   padding: 20px 10px 30px 5px;
+  margin: auto;
 }

@@ -35,3 +35,4 @@
         -dimensions width and height
         -overflow
         -text color, shadow
+        -text alignment and direction

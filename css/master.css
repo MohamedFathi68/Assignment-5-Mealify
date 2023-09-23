@@ -1,11 +1,11 @@
 .text {
   background-color: #ddd;
   margin-left: 10px;
-  width: 400px;
-  min-height: 10px;
-  max-height: 30px;
+  width: fit-content;
   padding: 20px;
-  border-left: 5px solid aqua;
-  text-align: center;
-  direction: rtl;
+  display: inline-block;
+  border-radius: 12px;
+  /* border-left: 5px solid aqua; */
+  text-decoration: none;
+  text-transform: capitalize;
 }

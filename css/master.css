@@ -4,9 +4,11 @@
 .span4 {
   background-color: #eee;
   margin-left: 10px;
-  width: 17%;
+  width: 400px;
+  min-height: 10px;
+  max-height: 30px;
   padding: 20px;
   border-left: 5px solid aqua;
   display: inline-block;
-  visibility: hidden;
+  /* visibility: hidden; */
 }

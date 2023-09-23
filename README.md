@@ -34,3 +34,4 @@
         -element visibility
         -dimensions width and height
         -overflow
+        -text color, shadow

@@ -1,14 +1,11 @@
-.span1,
-.span2,
-.span3,
-.span4 {
-  background-color: #eee;
+.text {
+  background-color: #ddd;
   margin-left: 10px;
   width: 400px;
   min-height: 10px;
   max-height: 30px;
   padding: 20px;
   border-left: 5px solid aqua;
-  display: inline-block;
-  overflow: auto;
+  color: blue;
+  text-shadow: 5px 5px 2px red;
 }

@@ -31,3 +31,4 @@
         -border
         -outline
         -display block inline inlineblock
+        -element visibility

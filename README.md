@@ -39,4 +39,4 @@
         -text decoration, transform
         -text spacing
         -inheritance
-        -tpography font family
+        -tpography font family, size & css units

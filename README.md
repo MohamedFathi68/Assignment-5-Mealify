@@ -38,3 +38,4 @@
         -text alignment and direction
         -text decoration, transform
         -text spacing
+        -inheritance

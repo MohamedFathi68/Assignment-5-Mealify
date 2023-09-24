@@ -7,4 +7,7 @@ div {
   padding: 30px;
   text-align: center;
   font-size: 2vw;
+  /* font-style: italic;
+  font-variant: small-caps; */
+  font-weight: bold;
 }

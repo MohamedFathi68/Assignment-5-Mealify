@@ -40,3 +40,4 @@
         -text spacing
         -inheritance
         -tpography font family, size & css units
+        -font style/variant/weight

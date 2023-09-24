@@ -39,3 +39,4 @@
         -text decoration, transform
         -text spacing
         -inheritance
+        -tpography font family

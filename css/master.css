@@ -9,5 +9,6 @@ div {
   font-size: 2vw;
   /* font-style: italic;
   font-variant: small-caps; */
-  font-weight: bold;
+  /* font-weight: bold; */
+  cursor: cell;
 }

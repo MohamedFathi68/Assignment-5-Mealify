@@ -48,3 +48,4 @@
         -positin
         -zindex
         -List Styling
+        -table Styling

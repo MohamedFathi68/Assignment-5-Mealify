@@ -2,11 +2,20 @@
   font-family: 'Skranji', cursive;
 }
 
-ul {
-  list-style: armenian inside;
+table {
+  width: 100%;
+  border: 1px solid #CCC;
+  border-spacing: 0;
 }
-
-li {
+table td {
+  padding: 15px;
   background-color: #EEE;
-  margin-bottom: 20px;
+  border: 1px solid #CCC;
+}
+table thead td {
+  background-color: #f44336;
+  color: #FFF;
+  font-weight: bold;
+  text-align: center;
+  border-color: #F35246;
 }

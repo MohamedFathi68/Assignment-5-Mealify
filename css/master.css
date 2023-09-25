@@ -2,11 +2,19 @@
   font-family: 'Skranji', cursive;
 }
 
+div {
+  color: white;
+  width: 100px;
+  padding: 10px;
+}
+
 .one {
   background-color: red;
-  opacity: 0.1;
+  position: relative;
+  top: 50px;
+  left: 8px;
 }
 
 .two {
-  background-color: rgb(255 0 0 / 0.1)
+  background-color: #ee0e0e;
 }

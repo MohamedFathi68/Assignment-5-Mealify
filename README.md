@@ -42,3 +42,4 @@
         -tpography font family, size & css units
         -font style/variant/weight
         -mouse cursor
+        -float and clear

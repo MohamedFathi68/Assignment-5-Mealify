@@ -2,20 +2,21 @@
   font-family: 'Skranji', cursive;
 }
 
-.parent {
-  background-color: red;
-  padding: 10px;
+body {
+  margin: 0;
 }
-
-.parent div {
+div {
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
   background-color: #eee;
-  width: 25%;
   float: left;
+  width: calc((100% - 60px) / 5);
+  margin-left: 10px;
 }
-
-.clear {
-  clear: both;
-} 
+/*
+  Content Width Is: 100%
+  6 Spaces  10px * 6 => 60px From Content Width
+  100% - 60px Available Space
+  5 Elements The Width Is: (100% - 60px) / 5
+*/

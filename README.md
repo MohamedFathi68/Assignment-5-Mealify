@@ -44,3 +44,4 @@
         -mouse cursor
         -float and clear
         -CSS Calculation
+        -opacity

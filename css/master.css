@@ -2,20 +2,32 @@
   font-family: 'Skranji', cursive;
 }
 
-table {
-  width: 100%;
-  border: 1px solid #CCC;
-  border-spacing: 0;
+.one {
+  background-color: red;
+  color: white;
 }
-table td {
-  padding: 15px;
+.two {
   background-color: #EEE;
-  border: 1px solid #CCC;
+  width: 100px;
+  height: 100px;
 }
-table thead td {
-  background-color: #f44336;
-  color: #FFF;
-  font-weight: bold;
-  text-align: center;
-  border-color: #F35246;
+a {
+  color: green;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+}
+a:visited {
+  color: blue;
+}
+:empty {
+  border: 10px solid red;
+}
+.ch:checked {
+  display: none;
+}
+.in:focus {
+  border-color: red;
+  outline: none
 }

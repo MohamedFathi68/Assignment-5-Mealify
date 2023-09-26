@@ -49,3 +49,4 @@
         -zindex
         -List Styling
         -table Styling
+        -pseudo classes

@@ -3,12 +3,14 @@
 }
 
 div {
-  width: 150px;
-  height: 150px;
-  background-color: red;
+  padding: 20px;
+  background-color: #eee;
   margin: 20px auto;
-  border-top-left-radius: 76% 68%;
-  border-top-right-radius: 48% 50%;
-  border-bottom-right-radius: 40% 78%;
-  border-bottom-left-radius: 85% 57%;
+  width: 300px;
+  box-shadow:
+    0 0 10px 0 #F10000,
+    0 0 10px 0 #000,
+    0 0 10px 0 #080,
+    0 0 10px 0 #00f,
+    0 0 10px 0 yellow;
 }

@@ -5,6 +5,7 @@
 .parent {
   margin-bottom: 20px;
   overflow: hidden;
+  counter-increment: members-counter;
 }
 .one {
   background-color: #eee;
@@ -13,27 +14,22 @@
   float: left;
   position: relative;
 }
-.one::after {
-  content: "";
-  position: absolute;
-  width: 5px;
-  height: 100%;
-  right: -10px;
-  top: 0;
-  background-color: #009688;
-}
 .one::before {
-  content: "";
+  content: attr(data-text);
+  display: none;
+}
+.one::after {
+  content: counter(members-counter);
   position: absolute;
+  background-color: red;
+  color: white;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  font-weight: bold;
+  right: -10px;
   top: 50%;
-  left: -20px;
-  width: 0;
-  height: 0;
-  background-color: white;
   margin-top: -10px;
-  border-style: solid;
-  border-width: 10px;
-  border-color: transparent #009688 transparent transparent;
 }
 .user {
   background-color: #eee;
@@ -44,4 +40,22 @@
   float: left;
   font-size: 50px;
   text-align: center;
+}
+ul {
+  list-style: none;
+}
+ul li {
+  position: relative;
+}
+ul li::before {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: -20px;
+  top: 50%;
+  margin-top: -10px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent #009688 transparent transparent;
 }

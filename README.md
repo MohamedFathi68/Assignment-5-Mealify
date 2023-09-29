@@ -52,3 +52,5 @@
         -pseudo classes
         -pseudo elements
         -Pseudo Elements – Before, After, Content
+        -vendor prefixes
+        -border radius

@@ -55,3 +55,4 @@
         -vendor prefixes
         -border radius
         -Box Shadows And Examples
+        -box sizing

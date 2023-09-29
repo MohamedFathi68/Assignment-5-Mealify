@@ -50,3 +50,4 @@
         -List Styling
         -table Styling
         -pseudo classes
+        -pseudo elements

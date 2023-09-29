@@ -2,32 +2,25 @@
   font-family: 'Skranji', cursive;
 }
 
-.one {
+.one span {
+  display: inline-block;
   background-color: red;
   color: white;
+  font-size: 60px;
+  font-weight: bold;
 }
-.two {
-  background-color: #EEE;
-  width: 100px;
-  height: 100px;
+.two::first-letter {
+  display: inline-block;
+  background-color: red;
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
 }
-a {
+.three::first-line {
+  font-weight: bold;
   color: green;
-  text-decoration: none;
 }
-a:hover {
-  color: red;
-}
-a:visited {
-  color: blue;
-}
-:empty {
-  border: 10px solid red;
-}
-.ch:checked {
-  display: none;
-}
-.in:focus {
-  border-color: red;
-  outline: none
+::selection {
+  background-color: black;
+  color: yellow;
 }

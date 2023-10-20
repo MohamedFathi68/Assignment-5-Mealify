@@ -5,16 +5,5 @@
   box-sizing: border-box;
 }
 .one {
-  background-color: #c55a5a;
-  width: 200px;
-  height: 100px;
-  /* transition-duration: 1s;
-  transition-delay: 0.2s;
-  transition-property: width;
-  transition-timing-function: ease-in-out; */
-  transition: all 2s 0s linear;
-}
-.one:hover {
-  width: 280px;
-  height: 120px;
+  background-color: red !important;
 }

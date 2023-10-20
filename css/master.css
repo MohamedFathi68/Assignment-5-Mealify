@@ -1,20 +1,20 @@
 * {
-  font-family: 'Skranji', cursive;
+  font-family: "Skranji", cursive;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-.parent {
-  width: 600px;
-  overflow: hidden;
-  margin: 20px auto;
-  padding: 20px;
-  background-color: #ddd;
-}
 .one {
-  background-color: #eee;
-  width: 300px;
-  float: left;
-  padding: 10px;
-  border: 1px solid red;
+  background-color: #c55a5a;
+  width: 200px;
+  height: 100px;
+  /* transition-duration: 1s;
+  transition-delay: 0.2s;
+  transition-property: width;
+  transition-timing-function: ease-in-out; */
+  transition: all 2s 0s linear;
+}
+.one:hover {
+  width: 280px;
+  height: 120px;
 }

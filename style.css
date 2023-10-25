@@ -2,25 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Source Sans 3', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
 }
 
-.clear-fix {
-  clear: both;
-}
-
-.container {
-  width: 80%;
-  margin: auto;
-  background-color: teal;
-}
-
-.card {
-  float: left;
-  width: 23%;
-  text-align: center;
-  margin: 0 1%;
-}
-
-.card img {
-  width: 100%;
+body {
+  padding: 0 9%;
 }

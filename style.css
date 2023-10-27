@@ -2,10 +2,152 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Source Sans 3', sans-serif;
-  /* font-family: 'Roboto', sans-serif; */
+  font-family: "Source Sans 3", sans-serif;
 }
 
-body {
-  padding: 0 9%;
+.clear-fix {
+  clear: both;
 }
+
+.container {
+  width: 85%;
+  height: 100%;
+  margin: auto;
+}
+
+/* start home section style */
+
+.home-section {
+  background-image: url(images/hero\ img.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.layer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #000000ca;
+}
+
+.nav {
+  height: 60px;
+  padding-top: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.nav .logo {
+  float: left;
+  width: 40%;
+  height: 100%;
+}
+
+.nav .logo a {
+  text-decoration: none;
+  color: #ff305b;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.nav .nav-links {
+  float: right;
+  width: 60%;
+  height: 100%;
+  text-align: right;
+}
+
+.nav .nav-links ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.nav .nav-links ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.nav .nav-links ul li a:hover {
+  color: #ff305b;
+}
+
+.home-content {
+  color: #fff;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.home-content .p1 {
+  font-size: 24px;
+  padding-top: 50px;
+}
+
+.home-content h1 {
+  color: #ff305b;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.home-content .p2 {
+  font-size: 26px;
+}
+
+/* end home section style */
+
+/* start about section style */
+
+.about-section {
+  height: 100vh;
+}
+
+.avatar {
+  width: 45%;
+  height: 100%;
+  float: left;
+}
+
+.avatar .img {
+  position: relative;
+}
+
+.avatar .img img {
+  position: absolute;
+  top: 100px;
+  right: 30px;
+  border-radius: 8px;
+  z-index: 3;
+}
+
+.img-border {
+  position: relative;
+  width: 360px;
+  height: 440px;
+  top: 80px;
+  left: 100px;
+  border-radius: 8px;
+  border: 10px solid #555555;
+}
+
+.personal-data {
+  width: 55%;
+  height: 100%;
+  background-color: darkgoldenrod;
+  float: right;
+}
+
+.personal-data h2 {
+  font-size: 34px;
+  font-weight: 600;
+  margin: 0px 0px 25px;
+  padding: 0px 0px 0px 13px;
+}
+
+/* end about section style */

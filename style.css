@@ -139,8 +139,8 @@
 .personal-data {
   width: 55%;
   height: 100%;
-  background-color: darkgoldenrod;
   float: right;
+  padding: 80px 0 0 60px;
 }
 
 .personal-data h2 {
@@ -148,6 +148,58 @@
   font-weight: 600;
   margin: 0px 0px 25px;
   padding: 0px 0px 0px 13px;
+  position: relative;
+}
+
+.personal-data h2::after {
+  content: "";
+  background-color: #ff305b;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  top: 13px;
+  width: 4px;
+}
+
+.personal-data p {
+  border-bottom: 1px dashed #999999;
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+  line-height: 25px;
+}
+
+.personal-data ul li {
+  list-style-type: none;
+  display: inline-block;
+  width: 40%;
+  padding: 10px 0;
+}
+
+.personal-data ul li span {
+  font-weight: bold;
+}
+
+.personal-data ul li a {
+  text-decoration: none;
+  color: #7E7E82;
+}
+
+.personal-data button {
+  padding: 10px 24px;
+  color: #fff;
+  background-color: #ff305b;
+  border-radius: 5px;
+  border: none;
+  margin: 10px 10px 0 0;
+  font-size: medium;
+}
+
+.personal-data button i {
+  padding-left: 5px;
+}
+
+.personal-data button:hover {
+  background-color: #EC2403;
 }
 
 /* end about section style */

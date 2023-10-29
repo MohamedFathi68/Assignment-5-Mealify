@@ -272,12 +272,6 @@
 
 /* start services section style */
 
-
-
-/* end services section style */
-
-/* start services section style */
-
 .service-section {
   height: 85vh;
   background-color: #F1F1F1;
@@ -366,6 +360,24 @@
   margin-bottom: 60px;
 }
 
+.portfolio-category {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.portfolio-category button {
+  padding: 10px 16px;
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.portfolio-imgs {
+  margin-bottom: 100px;
+}
+
 .img-card {
   width: 33.333%;
   height: 300px;
@@ -379,5 +391,46 @@
   z-index: 2;
 }
 
+.portfolio-exp {
+  background-color: #F1F1F1;
+  width: 100%;
+}
 
+.portfolio-exp .exp-card {
+  width: 25%;
+  height: 280px;
+  padding: 40px 20px 20px;
+  float: left;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.portfolio-exp .exp-card h3 {
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+.portfolio-exp .exp-card i {
+  font-size: 30px;
+}
+
+.exp-card i, .exp-card h3, .exp-card p {
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .img-card {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  .img-card {
+    width: 50%;
+  }
+}  
+
+/* end Portfolio section style */
+
+/* start Portfolio section style */
 /* end Portfolio section style */

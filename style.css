@@ -4,7 +4,14 @@
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
   outline: 1px solid red;
+  color: var(--text-color);
   /* font-family: 'Amatic SC', sans-serif; */
+}
+
+:root {
+  --main-color : #CE1212;
+  --secondary-color : #EEEEEE;
+  --text-color : #37373F;
 }
 
 .clear-fix {
@@ -22,11 +29,21 @@ a {
 
 /* start home section style */
 
-.home-section {
-  min-height: 100vh;
+.home-section  {
+  margin-top: 15vh;
+  min-height: 70vh;
+  background-color: #eee;
 }
 
-.nav {
+nav {
+  box-shadow: 0px 10px 10px #00000038;;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+nav .container {
   min-height: 15vh;
   display: flex;
   justify-content: space-between;
@@ -40,7 +57,7 @@ a {
 
 .nav-logo a::after {
   content: ".";
-  color: #ce1212;
+  color: var(--main-color);
 }
 
 .nav-links ul {
@@ -58,7 +75,7 @@ a {
 
 .nav-links ul li a {
   padding: 10px;
-  color: #4f4f5a;
+  color: var(--text-color);
   font-weight: 600;
 }
 
@@ -66,14 +83,89 @@ a {
   color: #000000;
 }
 
+.dark-btn i {
+  font-size: 20px;
+}
+
 .home-content {
   min-height: 85vh;
-  color: #37373F;
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info {
+  width: 40%;
 }
 
 .info h2 {
   font-family: 'Amatic SC', sans-serif;
   font-size: 65px;
 }
+
+.info h2, .info p {
+  margin-bottom: 20px;
+}
+
+.home-content .hero-img {
+  width: 40%;
+}
+
+.home-content .hero-img:hover {
+  animation: hero 0.3s infinite;
+}
+
+@keyframes hero {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-3deg);
+  }
+  50% {
+    transform: rotate(3deg);
+  }
+  75% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(3deg);
+  }
+}
+
+
+.btn-container {
+  display: flex;
+  align-items: center;
+}
+
+.book {
+  padding: 10px 16px;
+  color: white;
+  background-color: var(--main-color);
+  border-radius: 20px;
+  border-top-left-radius: 0px;
+}
+
+.watch {
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.play {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid red;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
 
 /* end home section style */

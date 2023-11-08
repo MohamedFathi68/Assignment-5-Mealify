@@ -19,58 +19,63 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <title>Mealify</title>
   </head>
 
   <body>
-    <!-- main container -->
 
     <!--   start home section   -->
 
-    <div class="home-section" id="home">
+    <nav>
       <div class="container">
-        <div class="nav">
-          <h1 class="nav-logo">
-            <a href="#home">Mealify</a>
-          </h1>
-          <div class="nav-links">
-            <ul>
-              <li>
-                <a href="#home">Home</a>
-              </li>
-              <li>
-                <a href="#chefs">Chefs</a>
-              </li>
-              <li>
-                <a href="#gallery">Gallery</a>
-              </li>
-              <li>
-                <a href="#contact">Contact</a>
-              </li>
-            </ul>
-          </div>
-          <button>
-            <i class="fa-solid fa-moon" style="color: #000000"></i>
-          </button>
+        <h1 class="nav-logo">
+          <a href="#home">Mealify</a>
+        </h1>
+        <div class="nav-links">
+          <ul>
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#chefs">Chefs</a>
+            </li>
+            <li>
+              <a href="#gallery">Gallery</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
         </div>
+        <div class="dark-btn">
+          <i class="fa-solid fa-moon" style="color: #000000"></i>
+        </div>
+        
+      </div>
+    </nav>
+
+    <section class="home-section" id="home">
+      <div class="container">
         <div class="home-content">
           <div class="info">
-            <h2>Enjoy Your Healthy
-              Delicious Food</h2>
+            <h2>Enjoy Your Healthy Delicious Food</h2>
             <p>Sed autem laudantium dolores. Voluptatem itaque ea consequatur eveniet. Eum quas beatae cumque eum quaerat.            </p>
             <div class="btn-container">
-              <a href="">Book a Table</a>
-              <a href="">
+              <a href="" class="book">Book a Table</a>
+              <a href="" class="watch">
                 <div class="play">
-                  <i class="fa-solid fa-play" style="color: #000000;"></i>Watch a Video
+                  <i class="fa-solid fa-play" style="color: #000000;"></i>
                 </div>
+                <span>Watch a Video</span>
               </a>
             </div>
           </div>
-          <img src="images/hero-img.png" alt="">
+          <img class="hero-img" src="images/hero-img.png" alt="hero-img">
         </div>
-    </div>
-<!-- yigj -->
+      </div>
+    </section>
+
     <!--    end home section    -->
 
     <!--   start chefs section   -->
